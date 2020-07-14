@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomar valores de un input</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Barra lateral estilos necesarios.css">
+    <link rel="stylesheet" href="menu arriba.css">
+    <link rel="stylesheet" href="cambiocolor.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="compu.ico" type="image/x-icon">
+    <script src="js.js"></script>
+</head>
+
+<body>
+
+    <div class="menu-responsive">
+        <div class="left"> <img class="imgperfil" src="rperfil.jpg" alt="Imagen del perfil"> Ethan Muñoz López</div>
+        <div class="trabajos">
+            <a href="">
+                <div class="habilidad"> </div>
+            </a>
+            <a href="#tamum">
+                <br>
+                <div class="habilidad">Transformar a mayusculas un mensaje</div>
+            </a>
+            <a href="">
+                <div class="habilidad"> </div>
+            </a>
+            <a href="">
+                <div class="habilidad"></div>
+            </a>
+        </div>
+        <div class="color">
+            <div class="contenedorcambios">
+                <p class="small">¿Demasiado claro?</p>
+                <label class="interruptor" for="checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <div class="botoninterruptor"></div>
+                </label>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="barralateral">
+        <div>
+            <img class="imgbarralateral" src="rperfil.jpg" alt="Imagen del perfil" />
+        </div>
+        <div>
+            <h1 class="titulolateral">Ethan Muñoz López</h1>
+        </div>
+        <div class="centrardatos">
+            <p class="textoexplicacion">Datos de contacto:</p>
+            <p class="textoexplicacion">Celular: +52 33 2046 8386 </p>
+            <p class="textoexplicacion correo">Correo: ethanmunozlopez04@gmail.com </p>
+        </div>
+        <a class="enlaceboton" target="_blank" href="mailto:ethanmunozlopez04@gmail.com">
+            <div class="contactameboton">
+                ¡Contactame!
+            </div>
+        </a>
+    </div>
+    <div class="trabajoscontenedor">
+        <h1 id="tamum" class="titulotrabajo">Transformar a mayusculas un mensaje</h1>
+
+        <div class="caja">
+            <h1 class="titulotrabajo">Valores de un input</h1>
+
+            <label class="sTfT textoexplicacion" for="#inputTexto2">Escriba aquí su texto: </label>
+            <input type="text" id="inputTexto2">
+            <!--En nuestro elemento boton, añadimos el efecto onclick, y le damos el valor de que
+            al hacer click en el boton ejecuta la funcion escribir texto, de nuestro archivo JS-->
+            <input type="button" id="botonEnviartexto" value="Enviar" onclick="escribirTexto()">
+            <br>
+            <br>
+            <label class="sTfT textoexplicacion" for="#inputTexto">Su texto transcrito: </label>
+            <input type="text" id="inputTexto" readonly="readonly">
+        </div>
+        <p class="textoexplicacion">Este programa transcribe lo que se escribe en el primer cuadro, pero en mayusculas</p>
+        <!--Invocamos al archivo javascript-->
+        <script src="js.js"></script>
+        <script src="cambio de color.js"></script>
+        <p class="textoexplicacion">Ethan Muñoz.
+        </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+</body>
+
+</html>

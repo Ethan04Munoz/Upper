@@ -1,0 +1,170 @@
+/*Responsive*/
+
+@media (min-width: 250px) and (max-width: 900px) {
+    .contactameboton {
+        font-size: 15px;
+    }
+    /*Esto se edita dependiendo del largo de la página*/
+    .barralateral {
+        top: 800px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 900px) {
+    .left {
+        font-size: 12px;
+    }
+    .habilidad {
+        font-size: 10px;
+    }
+    /*Ahora son otros contenedores*/
+    .trabajoscontenedorm {
+        width: 85%;
+    }
+    .barraprogreso {
+        width: 90%;
+    }
+    /*Esta parte es para mover la barra lateral*/
+    /*Esto se edita dependiendo del largo de la página*/
+    .barralateral {
+        position: absolute;
+        top: 800px;
+    }
+    .barralateral {
+        width: 97.4%;
+        border: none;
+        background: var(--backlateral);
+        border: 5px solid var(--bordeslateralresponsivo);
+    }
+    .barralateral .textoexplicacion {
+        font-size: 17px;
+        margin-left: -15%;
+        margin-top: 10%;
+        color: #fff;
+    }
+    .imagenlateral {
+        margin-left: 25%;
+        width: 50%;
+    }
+    .titulolateral {
+        font-size: 25px;
+        margin-left: 13%;
+        color: #fff;
+    }
+    .contactameboton {
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    .left {
+        font-size: 12px;
+    }
+    .habilidad {
+        font-size: 10px;
+    }
+    /*Cambio de color*/
+    .botoninterruptor {
+        height: 22px;
+        width: 34px;
+    }
+    .botoninterruptor::before {
+        width: 15px;
+        height: 15px;
+    }
+    /*Esta es para el movimiento de la bolita del boton*/
+    input:checked+.botoninterruptor:before {
+        transform: translateX(10px);
+    }
+    .color {
+        margin-left: 94%;
+        width: 10%;
+        float: left;
+    }
+    /*Ahora son otros contenedores*/
+    .trabajoscontenedorm {
+        width: 85%;
+    }
+    .barraprogreso {
+        width: 90%;
+    }
+    /*Otras cosas*/
+    .trabajoscontenedor {
+        width: 90%;
+        height: 550px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 900px) {
+    .caja {
+        margin-left: 2.4%;
+        width: 95%;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1100px) {
+    .small {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 2200px) {
+    .small {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1275px) {
+    .centrardatos .textoexplicacion {
+        font-size: 14px;
+    }
+    .contactameboton {
+        margin-left: 30%;
+    }
+}
+
+@media (min-width: 495px) and (max-width: 901px) {
+    .imgbarralateral {
+        width: 20%;
+        margin-left: 40%;
+    }
+    .centrardatos .textoexplicacion {
+        margin-top: 5%;
+    }
+}
+
+@media (min-width: 675px) and (max-width: 901px) {
+    .contactameboton {
+        margin-top: 5%;
+        margin-left: 30%;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1100px) {
+    .small {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 2200px) {
+    .small {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 900px) {
+    .botoninterruptor {
+        top: 0px
+    }
+    .small {
+        margin-bottom: 2px;
+        font-size: 10px;
+    }
+    .botoninterruptor::before {
+        top: 4px;
+    }
+    .contactameboton {
+        font-size: 15px;
+    }
+    .barralateral {
+        top: 800px;
+    }
+}

@@ -1,0 +1,157 @@
+:root {
+    --fondo: #e0e0e0;
+    --letras: #2c2c2c;
+    /*Las anteriores lineas declaran variables*/
+    --bordes: #002e69;
+    --colortitulo: #000;
+    --colortexto: #292929;
+    --sombra: #2c2c2c;
+    --fondomenor: #ededf3;
+    --degradado1: #e40000;
+    --degradado2: #0077ff;
+    --coloresinversos: #ffffff;
+    --enlacehover: #aab650;
+    --enlace: #2c2c2c;
+    --enlacehov: #000c74;
+    --enlaceshadow: #00074b;
+    --enlacesblancos: #e6e6e6;
+    --botonjugar: #0084ff;
+    --botonjugarhov: #004a8f;
+    --colorboton: #ebebeb;
+    --backlateral: #006cd1;
+    --bordeslateralresponsivo: #00305e;
+    --barracolor: #006eb8;
+    --fondobarra: #aaaaaa;
+}
+
+
+/*El data-theme dark tiene las mismas variables, pero diferentes valores. De esta manera 
+al ser cambiado mediante la funcion del Script, todos los colores de las variables serán cambiados 
+a los siguientes */
+
+
+/*El data theme oscuro no se utiliza en este archivo*/
+
+[data-theme="dark"] {
+    --fondo: #031830;
+    --letras: #d8d8d8;
+    --bordes: #c7ccd3;
+    --colortitulo: #c0c0c0;
+    --colortexto: #c9c9c9;
+    --sombra: #2b4869;
+    --fondomenor: #062850;
+    --degradado1: #a80000;
+    --degradado2: #178dfc8f;
+    --coloresinversos: #cfcfcf;
+    --enlacehover: #b4bd72;
+    --enlace: #e6e6e6;
+    --enlacehov: #a2abff;
+    --enlaceshadow: #4e5fff;
+    --enlacesblancos: #f7f5f5;
+    --botonjugar: #004a8f;
+    --botonjugarhov: #0084ff;
+    --colorboton: #c9c9c9;
+    --backlateral: #021d36;
+    --bordeslateralresponsivo: #eef7ff;
+    --barracolor: #005791;
+    --fondobarra: #666565;
+}
+
+.caja {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #003b72;
+    transition: all 0.3s;
+    margin-left: 40%;
+}
+
+.caja:hover {
+    box-shadow: #0052af 5px 5px 5px;
+    transition: all 0.3s;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 10%;
+}
+
+#inputTexto,
+#inputTexto2 {
+    width: 80%;
+    margin-left: 10%;
+    color: #353535;
+}
+
+p {
+    font-size: 19px;
+    font-family: sans-serif;
+    color: #353535;
+    margin-left: 10%;
+}
+
+#botonEnviartexto {
+    width: 50px;
+    height: 50px;
+    margin-left: 45%;
+    background: #329cff;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    border-radius: 15%;
+    transition: all 0.7s;
+}
+
+
+/*:active se utiliza para que funcione cuando el input:boton este activo*/
+
+#botonEnviartexto:active {
+    transition: all 0.1s;
+    background: #003b72;
+    box-shadow: 5px 5px 5px #353535;
+}
+
+.sTfT {
+    font-size: 19px;
+    font-family: sans-serif;
+    color: #353535;
+    margin-left: 10%;
+}
+
+
+/*Contenedor*/
+
+.trabajoscontenedor:hover {
+    box-shadow: 15px 15px 15px var(--sombra);
+    transition: all 0.5s;
+}
+
+.trabajoscontenedor {
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 60%;
+    border: 2px solid var(--bordes);
+    background: var(--fondomenor);
+    transition: all 0.5s;
+    height: 44rem;
+}
+
+.barralateral {
+    margin-top: 30px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: var(--fondo);
+}
+
+.textoexplicacion {
+    color: var(--colortexto);
+}
+
+.titulotrabajo {
+    color: var(--colortitulo);
+}

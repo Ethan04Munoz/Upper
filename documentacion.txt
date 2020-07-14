@@ -1,0 +1,27 @@
+Ethan Muñoz López
+
+Cualquier problema comunicarlo a:
+ethanmunozlopez04@gmail.com
+
+////////////////////////////////
+CSS: 
+
+active se utiliza para que funcione cuando el input:boton este activo
+
+///////////////////////////
+HTML5:
+
+En nuestro elemento boton, añadimos el efecto 'onclick=""', y le damos el valor de que
+al hacer click en el boton ejecuta la funcion escribir texto, de nuestro archivo JS.
+
+///////////////////////////
+JS: 
+
+Se almacena en la variable text el valor de #inputTexto2
+mediante el query selector y .value.
+
+Se accede al input en el que se transcribe el texto con .getElementById ,
+pero se puede usar .querySelector
+
+Se accede al valor del elemento con .value y es sustituido por la variable que 
+obtuvimos de lo que el usuario escribio. Volvemos todo mayusculas con .toUpperCase()
